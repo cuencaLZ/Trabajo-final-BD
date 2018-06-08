@@ -11,7 +11,7 @@ namespace BDFinal.Controllers
 	{
         public class TraductorDataAccess
         {
-            string connectionString = ("Server=127.0.0.1;Database=animes;Uid=root;Pwd=SQL852147852");
+            string connectionString = ("Server=127.0.0.1;Database=animes;Uid=root;Pwd=SQL852147852;SslMode=none");
        
 
             public IEnumerable<Animes> GetAllTraductores()
