@@ -1,0 +1,109 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url(../img/fondo.jpg)
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.lead {
+    color: yellow;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(33, 194, 54, 0.3);
+    text-align: center;
+    border-radius: 10%;
+}
+
+b {
+    color: green;
+}
+
+.jumbotron {
+    background-image: url(../img/portada.png)
+}
+
+h2 {
+    color: aqua;
+    text-align: center;
+}
+
+h3 {
+    color: aqua;
+}
+
+#info1 {
+    background-color: rgba(119, 245, 136, 0.6);
+}
+
+#info2 {
+    background-color: rgba(253, 92, 240, 0.6);
+}
+
+#info3 {
+    background-color: rgba(252, 217, 65, 0.6);
+}
+
+h1 {
+    background-color: rgba(248, 248, 248, 0.6);
+    text-align: center;
+    border-radius: inherit;
+}
+
+.img-rounded {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1%;
+}
+#img{
+    float:right;
+    position:relative;
+    margin:4%;
+}
+#va{
+    border: 3px solid #D4AF37;
+}
+.ranking {
+    color:blueviolet;
+}
+.descripcion {
+    color: aqua;
+    text-align:justify;
+}
+.titulo {
+    color: blueviolet;
+}
+.Danime {
+    margin:2%;
+    overflow:auto;
+}
+.genero {
+    color:aquamarine;
+}
+.puntuacion {
+    color: aquamarine;
+}
+
+.CB {
+    text-align:center;
+    border: 3px double #D4AF37;
+}
+

@@ -1,0 +1,29 @@
+﻿@model List<BDFinal.Models.Animes>
+@{
+
+    /**/
+
+    ViewBag.Title = "Directorio";
+}
+<link rel="stylesheet" href="../Content/Site.css" />
+<div class="jumbotron">
+    <h1><b>AnimesLagarto</b> <img src="../img/lagmid.png" class="boom" alt="" /></h1>
+    <p class="lead">La mejor pagina de Animes de las Islas Baleares</p>
+
+</div>
+<div class="container">
+    @foreach (var anime in Model)
+    {
+        <div class="Danime">
+            <div class="col-md-11" id="va">
+                <img src="@anime.image" id="img">
+                <h3 class="titutlo">Titulo: @anime.titulo</h3>
+                <p class="puntuacion">Puntuación: @anime.valoración</p>
+                <p class="genero">Generos: @anime.generos</p>
+                <p class="descripcion">Sinopsis: @anime.descripcion</p>
+                <p class="ranking">Ranking Mundial: @anime.ranking</p>
+            </div>
+        </div>
+    }
+</div>
+
